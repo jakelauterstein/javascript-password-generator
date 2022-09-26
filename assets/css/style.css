@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  font-size: large;
+
+}
+
+h1 {
+  font-size: 60px;
+  margin: 30px 40px;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(26, 30, 30);
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+main {
+  margin: 10px 50px;;
+  background-color: rgb(137, 244, 244);
+  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 4px 20px;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+label{
+  color:rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: large;
+  margin: 20px;
+}
+
+.num-input {
+  margin: 15px 60px;
+  padding: 15px 60px;
+  color: black;
+}
+
+::placeholder {
+  color: rgb(128, 87, 151);
+  opacity: 1; /* Firefox */
+  font-size: 20px;;
+  padding: 5px 10px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
+
+
+
+.user-form-container {
+  background-color: rgb(251, 181, 119);
+  box-shadow: rgb(12, 13, 13) -10px 10px;
+}
+
+.gen-pass {
+  margin-top: 20px;
+  background-color: rgb(251, 181, 119);
+  box-shadow: rgb(12, 13, 13) -10px 10px;
+}
+
